@@ -27,8 +27,10 @@ Entscheiden Sie sich für eine Data Engineering Plattform. Apache Flink oder Ap
     Ich habe versucht mir auf _stackoverflow_ einen Überblick zu verschaffen, welches Framework zur Zeit beliebter ist bzw. von der Community besser supported wird. Ich habe mich dadurch schlussendlich für __Flink entschieden__, auch weil ich die Anleitungne/Hilfestellungen auf der entsprechenden Website ansprechender fand.
 * Schicken Sie einen Screenshot der installierten Umgebung mit
 	Die Installation erfolgte sehr einfach und ware eigentlich durchgehend auf der Apache-Flink-Seite dokumentiert. Nach Download eines __Zip Packets__ muss diese entpackt werden und auf der Bash ausgeführt werden. Danach kann man via __localhost:8081__ die Administrationsoberfläche starten.  
-    
-    todo: Link zu screenshot
+    - _Flink Start:_  
+	![Flink Start](https://github.com/duffleit/bld_2016/blob/master/screenshots/console.png?raw=true)
+	- _Flink Weboberfläche_  
+	![Flink Oberfläche](https://github.com/duffleit/bld_2016/blob/master/screenshots/webinterface.png?raw=true)
 * Beschreiben Sie Ihre Toolchain, die Sie mit dem Framework nutzen würden (z.B. IDE)  
 	Wenn ich nicht im .Net Umfeld arbeite, verwende ich zur Entwicklung eigentlich sehr gerne __Jetbrains__ Produkte, so auch in diesem Fall: IntelliJ IDEA (& Maven). 
     Damit Flink unter Maven lauffähig ist müssen 3 Maven Dependencies hinzugefügt werden, welche auf der Apache-Flink-Seite dokumentiert sind.
@@ -64,10 +66,12 @@ Eine _Hello-World-Anwendung_ im __Daten-Engineering Umfeld__ ist in der Regel ei
 Entscheiden Sie sich für eine Data Science Plattform. R oder Python Installieren Sie die auf Ihrem Arbeitsgerät.
 * 1 Punkt: Begründen Sie ihre Entscheidung (Warum ziehen Sie persönlich aus ihrer Ausgangssituation die eine Technologie der anderen vor).
 	Wie bereits oben beschrieben, fällt meine Wahl auf __Python__, da ich mit dieser Technologie bereits vertraut bin und sie auch entsprechend leichtgewichtig ist. Zusätzlich bin ich jedoch der Meinung, dass die Wahl der Technologie immer aufgrund der Vorgaben im Projekt getroffen werden sollte. Man sollte also zu Projektbeginn eine Evaluierung der Technologien auf Basis der Anforderungen durchführen.
-* 2 Punkte: Schicken Sie einen Screenshot der installierten Umgebung mit
-	_Python-Installation:_
+* 2 Punkte: Schicken Sie einen Screenshot der installierten Umgebung mit  
+	- _Python-Installation:_  
+	![Python Installation](https://github.com/duffleit/bld_2016/blob/master/screenshots/python.jpg?raw=true)
     
-    _Python Hello-World in Console:_
+    - _Python Hello-World in Console:_  
+	![Python Hello World](https://github.com/duffleit/bld_2016/blob/master/screenshots/pythonConsole.png?raw=true)
     
 * 3 Punkt: Beschreiben Sie Ihre Toolchain, die Sie mit dem Framework nutzen (z.B. IDE)
 	Wie bereits oben beschrieben verwende ich sehr gerne Jetbrains Entwicklungsprodukte, welche auch einen Python IDE anbieten (PyCharm), zusätzlich bietet sich zum schnellen Editieren auch Sublime mit Syntax Unterstützung an. 
