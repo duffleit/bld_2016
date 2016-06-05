@@ -22,10 +22,10 @@ Antworten:
   
 ##Assignment 2: Big Data in Ihrem Umfeld (4 Punkte)
 Entscheiden Sie sich für eine Data Engineering Plattform. Apache Flink oder Apache Spark. Installieren Sie die auf Ihrem Arbeitsgerät.
-* Erklären Sie ihre Entscheidug
+* Erklären Sie ihre Entscheidung  
 	Ich habe zuvor weder mit __Spark__ noch mit __Flink__ gearbeitete, weshalb mir eine Entscheidung natürlich entsprechend schwer fiel. Beide Frameworks bieten ähnliche Features und auch eine umfangreiche Dokumentation. 
     Ich habe versucht mir auf _stackoverflow_ einen Überblick zu verschaffen, welches Framework zur Zeit beliebter ist bzw. von der Community besser supported wird. Ich habe mich dadurch schlussendlich für __Flink entschieden__, auch weil ich die Anleitungne/Hilfestellungen auf der entsprechenden Website ansprechender fand.
-* Schicken Sie einen Screenshot der installierten Umgebung mit
+* Schicken Sie einen Screenshot der installierten Umgebung mit  
 	Die Installation erfolgte sehr einfach und ware eigentlich durchgehend auf der Apache-Flink-Seite dokumentiert. Nach Download eines __Zip Packets__ muss diese entpackt werden und auf der Bash ausgeführt werden. Danach kann man via __localhost:8081__ die Administrationsoberfläche starten.  
     - _Flink Start:_  
 	![Flink Start](https://github.com/duffleit/bld_2016/blob/master/screenshots/console.png?raw=true)
@@ -47,7 +47,7 @@ Eine _Hello-World-Anwendung_ im __Daten-Engineering Umfeld__ ist in der Regel ei
 ##Assignment 1: Technologien (4 Punkte)
 1. Sie haben in der LVA zwei Frameworks kennengelernt (R und Python). Nennen Sie zwei weitere Technologien, um Daten zu analysieren (müssen nicht open source sein).
 
-    Scala, Matlab, SPSS aber auch Perl empfehlen sich meiner Meinung nach auch sehr gut zum Analysieren von Daten. 
+    Scala, Matlab, SPSS aber auch Perl empfehlen sich meiner Meinung nach auch sehr gut zum Analysieren von Daten.   
 	Ich habe hierzu auch Statistiken gefunden, welche beschreiben, welche
 	Programmiersprache bzw. welche Analyse Tools in Jobangeboten für Data-Scientists gefragt sind:
 
@@ -59,12 +59,12 @@ Eine _Hello-World-Anwendung_ im __Daten-Engineering Umfeld__ ist in der Regel ei
 
 2. Sie bekommen den Auftrag, sich mit einer Data Science Technologie zu arbeiten. Nennen Sie Technologie, die ihnen auf dem ersten Blick am besten für Sie ersscheint und begründen Sie das!
 
-	Ich würde meinen Auftrag mit __Python__ durchführe, da es ein sehr leicht gewichtiges Tool ist dessen Syntax sehr einfach zu verstehen ist. Zusätzlich findet man im Internet (Stackoverflow und co.) eine Menge Hilfestellungen welche auch aufgrund der großen Community die hinter Python steht entsprechend qualitativ hochwertig und gewartet ist. Zusätzlich habe ich bereits Erfahrungen damit. 
+	Ich würde meinen Auftrag mit __Python__ durchführe, da es ein sehr leicht gewichtiges Tool ist dessen Syntax sehr einfach zu verstehen ist. Zusätzlich findet man im Internet (Stackoverflow und co.) eine Menge Hilfestellungen welche auch aufgrund der großen Community die hinter Python steht entsprechend qualitativ hochwertig und gewartet ist. Zusätzlich habe ich bereits Erfahrungen damit.  
     Probleme gibt es meiner Meinung nach jedoch bei komplexeren Anwendungen, da beispielsweise das Python DependencyManagment nicht besonders wartbar und fehleranfällig ist. Hier wäre wohl __Java__ eine bessere Alternative. 
 
 ##Assignment 2: Technologien
 Entscheiden Sie sich für eine Data Science Plattform. R oder Python Installieren Sie die auf Ihrem Arbeitsgerät.
-* 1 Punkt: Begründen Sie ihre Entscheidung (Warum ziehen Sie persönlich aus ihrer Ausgangssituation die eine Technologie der anderen vor).
+* 1 Punkt: Begründen Sie ihre Entscheidung (Warum ziehen Sie persönlich aus ihrer Ausgangssituation die eine Technologie der anderen vor).  
 	Wie bereits oben beschrieben, fällt meine Wahl auf __Python__, da ich mit dieser Technologie bereits vertraut bin und sie auch entsprechend leichtgewichtig ist. Zusätzlich bin ich jedoch der Meinung, dass die Wahl der Technologie immer aufgrund der Vorgaben im Projekt getroffen werden sollte. Man sollte also zu Projektbeginn eine Evaluierung der Technologien auf Basis der Anforderungen durchführen.
 * 2 Punkte: Schicken Sie einen Screenshot der installierten Umgebung mit  
 	- _Python-Installation:_  
@@ -73,7 +73,7 @@ Entscheiden Sie sich für eine Data Science Plattform. R oder Python Installier
     - _Python Hello-World in Console:_  
 	![Python Hello World](https://github.com/duffleit/bld_2016/blob/master/screenshots/pythonConsole.png?raw=true)
     
-* 3 Punkt: Beschreiben Sie Ihre Toolchain, die Sie mit dem Framework nutzen (z.B. IDE)
+* 3 Punkt: Beschreiben Sie Ihre Toolchain, die Sie mit dem Framework nutzen (z.B. IDE)  
 	Wie bereits oben beschrieben verwende ich sehr gerne Jetbrains Entwicklungsprodukte, welche auch einen Python IDE anbieten (PyCharm), zusätzlich bietet sich zum schnellen Editieren auch Sublime mit Syntax Unterstützung an. 
 
 ##Assignment 3: Big Science
