@@ -80,3 +80,12 @@ Entscheiden Sie sich für eine Data Science Plattform. R oder Python Installier
 Der Cheatsheet auf http://scikit-learn.org/stable/tutorial/machine_learning_map/ ist eine einfache Anleitung, wie man den richtigen Algorithmus zum richtigen Data Science Problem findet.  
 Schauen Sie in Google nach und lernen Sie classificatiom, regression, clusting und dimensional reduction unterscheiden. 
 Nennen Sie ein Beispiel aus ihrem Umfeld, wo Sie mit dem Algorithmus zu tun haben. Das kann ein Beispiel sein, wie: Wenn Sie bei Amazon einkaufen. Wenn Sie von einem Marketinginstitut angerufen werden, etc.  
+
+- Im Zuge der __classification__ wird versucht Daten in zuvor festgelegte Kategorien einzuordnen. Der _classifier_, welcher die Zuordnung trifft, wird mithilfe eines _trainingsampels_, dessen Größe aufgrund der Lernkurve des Systems gewählt wird, trainiert.
+Ein Beispiel hierfür ist die Emailkategorisierung von _GMAIL_, welche Emails in vordefinierte Gruppen einordnet. 
+
+- __Regression__ funktioniert ähnlich wie __classification__, mit dem Unterschied, dass statt einer Kategorie ein konkreter Wert vorhergesagt werden kann. _CHECKFELIX_ verwendet vermutlich dieses Verfahren um die Preisprognose zu realisieren. 
+
+- __Clustering__ ist eine Erweiterung der classification, bei welcher die Kategorien nicht zuvor definiert werden, sondern diese im Zuge der Analyse erstellt werden. Amazon Produktvorschlägen, Artikelvorschläge auf Newsseiten, oder sämtliche andere Vorschläge können damit realisiert werden. 
+
+- __Dimensional reduction__ setzt mit den Performanceproblemen auseinander, welche entstehen, wenn eine sehr große Datenmenge analysiert werden muss. _Classification, regression_ oder _clustering_ kann hier unter Umständen Analysen nicht mehr in vertretbarer Zeit durchführen. Aus diesem Grund gibt es die Möglichkeit, die __Performance vorab durch dimensional reduction__ zu erhöhen. Hierzu gibt es verschiede Techniken und Fehlerquellen welche zu beachten sind und [hier](http://www.analyticsvidhya.com/blog/2015/07/dimension-reduction-methods/) im Detail beschrieben sind. 
